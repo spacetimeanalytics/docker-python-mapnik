@@ -29,3 +29,4 @@ RUN /tmp/build.sh
 
 RUN git clone --branch v3.0.x https://github.com/spacetimeanalytics/python-mapnik.git /tmp/mapnik-python
 RUN cd /tmp/mapnik-python && python setup.py install
+
